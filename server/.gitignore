@@ -1,0 +1,31 @@
+# .gitignore
+
+# Node modules (if you ever add Node.js tools)
+node_modules/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Build outputs (if you use bundlers like Vite/Webpack later)
+dist/
+build/
+
+# Environment variables (if added later for APIs)
+.env
+.env.local
+.env.*
+
+# Mac system files
+*.DS_Store
+
+# Cache
+.cache/
