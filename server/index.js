@@ -8,6 +8,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/",(req,res)=>{
+  console.log("hello bastards")
+})
 app.post("/analyze", async (req, res) => {
   try {
     const { text } = req.body;
