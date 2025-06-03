@@ -4,7 +4,7 @@ async function analyzeText() {
   resultDiv.innerHTML = "Analyzing...";
 
   try {
-    const res = await fetch("http://localhost:5050/analyze", {
+    const res = await fetch("http://https://content-moderator-2wug-gy4v5jkl0-mustaqeem-alis-projects.vercel.app/analyze", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ text: input }),
